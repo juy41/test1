@@ -15,3 +15,11 @@ $input = trim(fgets(STDIN));
 list($a, $b) = explode(' ', $input);
 echo "Числа введены: $a и $b\n";
 ?>
+
+<?php
+echo "Сложение: " . ($a + $b) . "\n";
+?>
+
+<?php
+echo "Вычитание: " . ($a - $b) . "\n";
+?>
