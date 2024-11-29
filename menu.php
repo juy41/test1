@@ -8,3 +8,10 @@ echo "5. Возведение в степень\n";
 echo "Выберите пункт: ";
 $choice = trim(fgets(STDIN));
 ?>
+
+<?php
+echo "Введите два числа через пробел: ";
+$input = trim(fgets(STDIN));
+list($a, $b) = explode(' ', $input);
+echo "Числа введены: $a и $b\n";
+?>
